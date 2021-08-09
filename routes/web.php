@@ -24,3 +24,4 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::view('/users', 'users.all')->name('users');
+Route::view('/game', 'game.show')->name('game.show');
